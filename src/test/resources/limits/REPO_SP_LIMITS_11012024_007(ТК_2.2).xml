@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<SPCEX_DOC >
+  <doc_props doc_ver="3.05a" delivery_mode="P" delivery_confirmation="N" doc_type="list_of_limits" doc_date="2023-10-12" doc_time="07:00:56" doc_name="list_of_limit_20231005_110056.xml" sender_doc_id="LL_20231005415" />
+
+  <sender>
+       <addressee_info id="574" name="Комитет финансов ЛО"/>
+  </sender>
+
+  <receiver>
+       <addressee_info id="263" name="СПВБ"/>
+  </receiver>
+
+  <document form="list_of_limit" ver="3.05a" remarks="Сведения о лимитах">
+   <list_of_limit limit_date="2023-10-12" lim_type="S" initiator_code="574" initiator_name="Комитет финансов ЛО" currency="RUB" records="11" executor_phone="+78125394844" executor_name="Комитет финансов ЛО" >         
+	<list_of_limit_rec participant_code="472" limit="3785983459"/>
+	<list_of_limit_rec participant_code="587" limit="111111111111"/>
+	<list_of_limit_rec participant_code="506" limit="111111111111"/>
+      </list_of_limit>
+
+  </document>
+
+</SPCEX_DOC>

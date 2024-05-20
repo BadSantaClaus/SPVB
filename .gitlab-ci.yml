@@ -1,0 +1,47 @@
+default:
+  tags:
+    - main
+
+stages:
+  - run_tests
+  - report
+
+run_tests:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+      when: always
+    - if: $CI_PIPELINE_SOURCE == "web"
+      when: always
+    - when: manual
+  stage: run_tests
+  allow_failure: true
+  script:
+    - echo $ARG
+    - mvn clean test $ARG
+  artifacts:
+    when: always
+    expire_in: 14 days
+    paths:
+      - target/allure-results
+      - target/logger.txt
+
+report:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+      when: always
+    - if: $CI_PIPELINE_SOURCE == "web"
+      when: always
+    - when: manual
+  stage: report
+  script:
+    - mvn allure:report
+  after_script:
+    - C:\Allure\allure-2.27.0\bin\allure open C:\Users\bell\GitLab-Runner\builds\eR__1iKg\0\bellintegrator\automatic-testing\autotests\target\allure-reports --port 57882 --host 192.168.206.27
+    - echo "Allure report - http://192.168.206.27:57882/index.html"
+  artifacts:
+    when: always
+    expire_in: 14 days
+    paths:
+      - target/allure-reports/*
+
+

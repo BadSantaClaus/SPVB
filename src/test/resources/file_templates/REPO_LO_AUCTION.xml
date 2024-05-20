@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<SPCEX_DOC >
+    <doc_props doc_ver="3.05a" delivery_mode="P" delivery_confirmation="N" doc_type="selection_info" doc_date="2024-03-27" doc_time="10:01:31" doc_name="selection_info_20240327_100131.xml" sender_doc_id="SI_20240327522" />
+
+    <sender>
+        <addressee_info id="574" name="Комитет финансов ЛО"/>
+    </sender>
+
+    <receiver>
+        <addressee_info id="263" name="СПВБ"/>
+    </receiver>
+
+    <document form="selection_info" ver="3.05a" remarks="Объявление об отборе заявок">
+
+        <selection_info records="1" executor_phone="+78125394844" executor_name="Комитет финансов ЛО">
+
+            <selection_info_rec
+                    initiator_code="574" initiator_name="Комитет финансов ЛО"
+                    selection_date="2024-03-28" selection_type="RA" selection_id="00523"
+                    finstr="LORA002RS0" total_sum="500" currency="RUB"
+                    period="2" paying_date="2024-03-28" repaym_date="2024-03-29"
+                    min_ord_rate="15.15"
+                    booking_time_start="12:30:00" booking_time_finish="12:40:00" form= "O" condition = "S" />
+
+        </selection_info>
+
+    </document>
+
+</SPCEX_DOC>

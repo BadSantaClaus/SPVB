@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<SPCEX_DOC>
+<DOC_REQUISITIONS DOC_DATE="2023-02-28" DOC_TIME="09:50:29" DOC_NO="123456789012"
+                  DOC_TYPE_ID="PFX02" SENDER_ID="MZ0000200000" SENDER_NAME="Банк России" RECEIVER_ID="PM0020500000"
+                  REMARKS="Извещение об Аукционе РЕПО/Торгах по фиксированной ставке РЕПО"/>
+<PFX02 VER="1.0">
+    <PFX02_TAB REPO_DATE="2024-02-20">
+        <AUCTION AUCTION_ID="442670" CURRENCY="CNY"
+                 START_TIME="10:08:00" END_TIME="10:10:00"
+                 FIRST_LEG_DATE="2024-02-20"
+                 SECOND_LEG_DATE="2024-03-12"
+                 MIN_BID_RATE="0.25" AUCTION_TYPE="12m"
+                 RATE_TYPE_AUCT="FIX"/>
+    </PFX02_TAB>
+</PFX02>
+</SPCEX_DOC>

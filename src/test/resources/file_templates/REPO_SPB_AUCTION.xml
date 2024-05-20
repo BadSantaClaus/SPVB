@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<SPCEX_DOC>
+    <doc_props doc_ver="4.7" delivery_mode="P" delivery_confirmation="N" doc_type="selection_info" doc_date="2024-03-28"
+               doc_time="09:05:00" doc_name="selection_info_20240328_090500.xml" sender_doc_id="SI_2024032801"/>
+    <sender>
+        <addressee_info id="302" name="Комитет финансов СПб"/>
+    </sender>
+    <receiver>
+        <addressee_info id="263" name="СПВБ"/>
+    </receiver>
+    <document form="selection_info" ver="3.03a" remarks="Объявление об отборе заявок">
+        <selection_info records="1" executor_phone="+78122461314" executor_name="Комитет финансов СПб">
+            <selection_info_rec
+                    initiator_code="302" initiator_name="Комитет финансов СПБ"
+                    selection_date="2024-04-01" selection_type="RA" selection_id="24001"
+                    finstr="SPRA002RS1" total_sum="10000" currency="RUB"
+                    period="2" rate_type="FIX" benchmark="" paying_date="2024-04-02"
+                    repaym_date="2024-04-05"
+                    min_ord_rate="10"
+                    booking_time_start="14:16:00" booking_time_finish="14:17:00"/>
+        </selection_info>
+    </document>
+</SPCEX_DOC>

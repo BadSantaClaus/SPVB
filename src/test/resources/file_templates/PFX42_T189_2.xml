@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<SPCEX_DOC>
+    <DOC_REQUISITIONS DOC_DATE="2022-09-13" DOC_TIME="10:10:00" DOC_NO="20220620-055" DOC_TYPE_ID="PFX42"
+                      SENDER_NAME="БАНК РОССИИ" SENDER_ID="MZ0000200000" RECEIVER_ID="PM0020500000"
+                      REMARKS="Описание доразмещения"/>
+    <PFX42 VER="1.0">
+        <AUCTIONS>
+            <AUCTION AUC_DATE="2024-01-24" AUCTION_ID="156323" SECURITYID="SU26242RMFS6" TYPE="0" AUC_TYPE="2"
+                     SETTLECODE="B01" QUANTITY_R="1000000" START_TIME="13:35:00" END_TIME="13:45:00"
+                     START_CUT_TIME="13:55:00" END_CUT_TIME="14:05:00" PRICE="100.00" MIN_LIMIT_PRICE="100.00"
+                     CURRENCYID="RUB" TRDACCID="A01-00000P01"/>
+        </AUCTIONS>
+    </PFX42>
+</SPCEX_DOC>
